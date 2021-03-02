@@ -33,7 +33,6 @@ else:
     minutes=M%100
     print("Message will be sent at ",hours,":",minutes)
 pywhatkit.sendwhatmsg(Q,P, hours, minutes)
-#pywhatkit.sendwhatmsg('+919997955711', 'Hello', 14, 9)
 for i in range(N):
     time.sleep(1)
     pyautogui.typewrite(P)
